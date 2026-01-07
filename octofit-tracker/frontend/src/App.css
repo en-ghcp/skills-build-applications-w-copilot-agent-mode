@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2a5298;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+.navbar, .navbar.navbar-expand-lg {
+  background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(42,82,152,0.08);
+}
+.navbar .navbar-brand, .navbar .nav-link, .navbar .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* Logo */
+.octofit-logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Tables */
+table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(42,82,152,0.06);
+}
+th {
+  background: #2a5298 !important;
+  color: #fff !important;
+}
+tr:nth-child(even) {
+  background: #f3f7fa;
+}
+tr:hover {
+  background: #e0eafc;
+}
+
+/* Buttons */
+.btn, button {
+  background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover, button:hover {
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  color: #ffd700;
+}
+
+/* Links */
+a {
+  color: #2a5298;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+/* Card */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(42,82,152,0.08);
+  border: none;
+}
+
+/* Misc */
+.app-main {
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
